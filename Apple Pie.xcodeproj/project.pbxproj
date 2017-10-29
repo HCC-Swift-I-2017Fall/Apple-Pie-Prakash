@@ -12,6 +12,7 @@
 		9BDC6CA91FA6788500E899A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC6CA71FA6788500E899A3 /* Main.storyboard */; };
 		9BDC6CAB1FA6788500E899A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC6CAA1FA6788500E899A3 /* Assets.xcassets */; };
 		9BDC6CAE1FA6788500E899A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC6CAC1FA6788500E899A3 /* LaunchScreen.storyboard */; };
+		9BDC6CB61FA6838900E899A3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC6CB51FA6838900E899A3 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BDC6CAA1FA6788500E899A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDC6CAD1FA6788500E899A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BDC6CAF1FA6788500E899A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDC6CB51FA6838900E899A3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9BDC6CA31FA6788500E899A3 /* AppDelegate.swift */,
+				9BDC6CB51FA6838900E899A3 /* Game.swift */,
 				9BDC6CA51FA6788500E899A3 /* ViewController.swift */,
 				9BDC6CA71FA6788500E899A3 /* Main.storyboard */,
 				9BDC6CAA1FA6788500E899A3 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDC6CA61FA6788500E899A3 /* ViewController.swift in Sources */,
+				9BDC6CB61FA6838900E899A3 /* Game.swift in Sources */,
 				9BDC6CA41FA6788500E899A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sachania.prakash.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sachania.prakash.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
